@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:youtube/CustomSearch.dart';
+import 'package:youtube/api.dart';
 import 'package:youtube/telas/library.dart';
 import 'package:youtube/telas/EmAlta.dart';
 import 'package:youtube/telas/Inicio.dart';
@@ -30,10 +31,15 @@ class _youtubeState extends State<youtube> {
       appBar: AppBar(
         iconTheme: IconThemeData(color: Colors.grey),
         backgroundColor: Color.fromARGB(255, 12, 12, 12),
-        title: Image.asset(
-          "images/youtubeDark.png",
-          width: 98,
-          height: 22,
+        title: GestureDetector(
+          onTap: () {
+            resultado = '';
+          },
+          child: Image.asset(
+            "images/youtubeDark.png",
+            width: 98,
+            height: 22,
+          ),
         ),
         actions: <Widget>[
           IconButton(

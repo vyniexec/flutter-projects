@@ -50,6 +50,12 @@
       "languageVersion": "2.17"
     },
     {
+      "name": "flutter_inappwebview",
+      "rootUri": "file:///D:/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_inappwebview-5.7.2+3",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
       "name": "flutter_lints",
       "rootUri": "file:///D:/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_lints-2.0.1",
       "packageUri": "lib/",
@@ -60,12 +66,6 @@
       "rootUri": "file:///D:/flutter/packages/flutter_test",
       "packageUri": "lib/",
       "languageVersion": "2.17"
-    },
-    {
-      "name": "flutter_youtube_view",
-      "rootUri": "file:///D:/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_youtube_view-2.0.4",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
     },
     {
       "name": "http",
@@ -84,12 +84,6 @@
       "rootUri": "file:///D:/flutter/.pub-cache/hosted/pub.dartlang.org/lints-2.0.1",
       "packageUri": "lib/",
       "languageVersion": "2.17"
-    },
-    {
-      "name": "magic_home",
-      "rootUri": "file:///D:/flutter/.pub-cache/hosted/pub.dartlang.org/magic_home-1.0.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.2"
     },
     {
       "name": "matcher",
@@ -170,13 +164,19 @@
       "languageVersion": "2.14"
     },
     {
+      "name": "youtube_player_flutter",
+      "rootUri": "file:///D:/flutter/.pub-cache/hosted/pub.dartlang.org/youtube_player_flutter-8.1.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
       "name": "youtube",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     }
   ],
-  "generated": "2023-01-22T16:58:38.248773Z",
+  "generated": "2023-01-28T22:46:22.420641Z",
   "generator": "pub",
   "generatorVersion": "2.18.6"
 }

@@ -7,8 +7,7 @@ const urlBase = 'https://www.googleapis.com/youtube/v3/';
 const urlPesquisa = '$urlBase'
     'search'
     '?part=snippet'
-    '&type=video'
-    '&maxResults=20'
+    '&maxResults=50'
     '&order=date'
     '&key=$chaveApi';
 
